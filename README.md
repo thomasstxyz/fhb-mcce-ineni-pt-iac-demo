@@ -59,7 +59,7 @@ ansible-playbook -i inventory main.yml
 
 ## Kubernetes Example deployment
 
-    kubectl apply -f https://github.com/thomasstxyz/fhb-mcce-ineni-pt-iac-demo/blob/main/kubernetes/manifests/podtato-kubectl.yaml
+    kubectl apply -f https://raw.githubusercontent.com/thomasstxyz/fhb-mcce-ineni-pt-iac-demo/main/kubernetes/manifests/podtato-kubectl.yaml
 
 # License
 
