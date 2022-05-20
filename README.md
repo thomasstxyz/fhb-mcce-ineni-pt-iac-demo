@@ -6,6 +6,8 @@ Demo: **Kubernetes cluster in 10 minutes** using the tools
 - [Hashicorp Terraform](https://www.terraform.io/) to create Infrastructure in the Cloud
 - [Red Hat Ansible](https://www.ansible.com/) to automate installation of K8s cluster
 
+![Illustration](./iac-demo.drawio.png)
+
 ## Create a VirtualBox VM with Vagrant
 
 We create a local VM with Terraform and Ansible installed.
