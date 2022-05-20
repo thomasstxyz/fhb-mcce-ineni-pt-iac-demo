@@ -51,7 +51,7 @@ resource "aws_instance" "kube-worker" {
   ami = data.aws_ami.ubuntu-focal-x86_64.id
   instance_type = "t3.medium"
 
-  count = 1
+  count = 2
 
   vpc_security_group_ids = [
     aws_security_group.egress-all-all.id,
