@@ -1,0 +1,4 @@
+ansible/inventory
+
+.vagrant
+*.log
